@@ -2,14 +2,14 @@
 <br> Estudo de Cypress no site Bug Bank com Page Objects
 </h1>
 
-<h4 align="center">
-  BDD's do login usados para realização dos testes no cypress:
-</h4>
-
 <div align="center">
 <img width="800px" alt="Site para testes automatizados CuraHealthcare" src="https://i.imgur.com/Tmx5hQj.png" />
 </div>
 <br>
+
+<h4 align="center">
+  BDD's do login usados para realização dos testes no cypress:
+</h4>
 
 ```diff  
 
