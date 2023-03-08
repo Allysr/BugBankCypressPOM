@@ -11,20 +11,20 @@
 • Sucesso ao fazer login
 Dado que o usuário tenha cadastro
 E insira os dados válidos
-Quando clicar em 'login'
-Deve
+Quando clicar em 'acessar'
+Deve redirecionar para a home.
 
 • Falha ao fazer login
 Dado que o usuário tenha cadastro
 E insira nome ou senha inválidos
-Quando clicar 'login'
+Quando clicar 'acessar'
 Deve abrir o modal
 E aparecer mensagem "Usuário ou senha inválido. Tente novamente ou verifique suas informações!".
 
 • Campo do login vázio
 Dado que o usário esteja tentando realizar o login
 E não insira dados no <campo>
-Quando clicar em 'login'
+Quando clicar em 'acessar'
 Deve aparecer a mensagem 'É campo obrigatório'.
 
 • Botão "fechar" no modal em caso de falha de login
