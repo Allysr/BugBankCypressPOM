@@ -1,0 +1,20 @@
+{
+  "name": "bugbankpomcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "cy:open":"npx cypress open"
+  },
+  "keywords": [
+    "Cypress",
+    "PO",
+    "test"
+  ],
+  "author": "Allysr",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.7.0"
+  }
+}
