@@ -8,53 +8,54 @@
 <br>
 
 <h4 align="center">
-  BDD's do login usados para realização dos testes no cypress:
+ Cenários de login usados para realização dos testes no cypress:
 </h4>
 
 ```diff  
 
-• Sucesso ao fazer login
+• Validar login bem-sucedido.
 Dado que o usuário tenha cadastro
 E insira os dados válidos
 Quando clicar em 'acessar'
-Deve redirecionar para a home.
+Então deve redirecionar para a home.
 
-• Falha ao fazer login
+• Validar falha ao tentar realizar login.
 Dado que o usuário tenha cadastro
 E insira nome ou senha inválidos
 Quando clicar 'acessar'
-Deve abrir o modal
+Então deve abrir o modal
 E aparecer mensagem "Usuário ou senha inválido. Tente novamente ou verifique suas informações!".
 
-• Campo do login vázio
+• Validar campos vazios.
 Dado que o usário esteja tentando realizar o login
 E não insira dados no <campo>
 Quando clicar em 'acessar'
-Deve aparecer a mensagem 'É campo obrigatório'.
+Então deve aparecer a mensagem 'É campo obrigatório'.
 
-• Botão "fechar" no modal em caso de falha de login
+• Validar botão "fechar" no modal em caso de falha de login
 Dado que o usuário tenha preenchido os campos com dados inválidos
 E tenha sido aberto o modal de erro
 Quando clicar 'fechar'
-Deve desaparecer o modal.
+Então deve desaparecer o modal.
 
-• Botão "x" no modal em caso de falha de login
+• Validar botão "x" no modal em caso de falha de login
 Dado que o usuário tenha preenchido os campos com dados inválidos
 E tenha sido aberto o modal de erro
 Quando clicar no "x"
-Deve desaparecer o modal.
+Então deve desaparecer o modal.
 
-• Visualizar a senha
+• Validar visualização de senha oculta.
 Dado que o usário insira uma senha no login
-E ela esteja escondida
+E ela esteja oculta
 Quando clicar no icone de "olhinho"
-Deve aparecer a senha.
+Então deve aparecer a senha.
 
-• Esconder senha
+• Validar ocultar senha.
 Dado que o usário insira uma senha no login
 E ela esteja visivel
 Quando clicar no icone de "olhinho"
-Deve ocultar a senha.
+Então deve ocultar a senha.
+
 ```
 
 <br>
