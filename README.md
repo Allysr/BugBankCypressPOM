@@ -9,7 +9,7 @@ Estudo de Cypress no site Bug Bank com Page Objects
 <h1></h1>
 
 
-#### Como executar o projeto:
+#### 🔖 Como executar o projeto:
 
 
 ```diff 
@@ -19,7 +19,7 @@ Estudo de Cypress no site Bug Bank com Page Objects
 • npm run test
 ```
 
-#### Cenários de login usados para realização dos testes no cypress:
+#### 🔖 Cenários de login usados para realização dos testes no cypress:
 
 
 ```diff  
