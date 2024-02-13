@@ -1,15 +1,26 @@
 <h1 align="center">
-<br> Estudo de Cypress no site Bug Bank com Page Objects
+Estudo de Cypress no site Bug Bank com Page Objects
 </h1>
 
 <div align="center">
 <img width="800px" alt="Site para testes automatizados CuraHealthcare" src="https://i.imgur.com/Tmx5hQj.png" />
 </div>
-<br>
 
-<h4 align="center">
- Cenários de login usados para realização dos testes no cypress:
-</h4>
+<h1></h1>
+
+
+#### Como executar o projeto:
+
+
+```diff 
+• git clone 
+• cd bugbankCypressPOM
+• npm install
+• npm run test
+```
+
+#### Cenários de login usados para realização dos testes no cypress:
+
 
 ```diff  
 
