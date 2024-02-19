@@ -1,0 +1,27 @@
+# Definimos o nome do workflow
+name: Cypress testes 
+# Quando ele vai ser rodado
+on: [push]
+# Passos para ele ser rodado
+jobs: 
+# Nome do job
+  cypress-electron-tests:
+  # Instrução para o job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get code
+        uses: actions/checkout@v4.1.1
+        
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run cypress
+        run: npm run test
+
+
+
+      
+      
+    
+    
+  
