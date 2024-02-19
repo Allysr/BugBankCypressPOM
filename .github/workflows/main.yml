@@ -16,7 +16,9 @@ jobs:
         env:
           senha: ${{ secrets.SENHA }}
           email: ${{ secrets.EMAIL }}
-      
+        run: |
+          echo "This is a secret value: $SENHA"
+          echo "This is a secret value: $EMAIL"
         
       - name: Install dependencies
         run: npm install
