@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
-    "cy:open":"npx cypress open"
+    "cy:open": "npx cypress open",
+    "report:allure": "npx allure serve allure-results"
   },
   "keywords": [
     "Cypress",
@@ -15,6 +16,10 @@
   "author": "Allysr",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "^13.9.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.29.0",
+    "allure-cypress": "^2.15.1"
   }
 }

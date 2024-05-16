@@ -1,6 +1,6 @@
 // ações de interação com a página //
 
-const elemento = require("./elements").ELEMENTS;
+import { ELEMENTOS as elemento } from "./elementos";
 
 class Login {
   preencherLogin(email, senha) {
@@ -16,21 +16,23 @@ class Login {
     cy.get(elemento.senha).type(senha, { log: false });
   }
 
-  clicarBotaoAcessar(){
+  clicarBotaoAcessar() {
     cy.get(elemento.botaoAcessar).click();
-  };
-
-  clicarBotaoFecharModal(){
-    cy.get(elemento.botaoFecharModal).click()
   }
 
-  clicarBotaoXModal(){
-    cy.get(elemento.botaoXModal).click()
+  clicarBotaoFecharModal() {
+    cy.get(elemento.botaoFecharModal).click();
   }
 
-  clicarBotaoOlhinho(){
-    cy.get(elemento.botaoOlhinho).click()
+  clicarBotaoXModal() {
+    cy.get(elemento.botaoXModal).click();
   }
+
+  clicarBotaoOlhinho() {
+    cy.get(elemento.botaoOlhinho).click();
+  }
+
+  
 }
 
 export default new Login();
