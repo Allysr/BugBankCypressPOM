@@ -3,7 +3,7 @@ Estudo de Cypress no site Bug Bank com Page Objects
 </h1>
 
 <div align="center">
-<img width="800px" alt="Site para testes automatizados CuraHealthcare" src="https://i.imgur.com/Tmx5hQj.png" />
+<img width="800px" alt="Site para testes automatizados Bugbank" src="https://i.imgur.com/Tmx5hQj.png" />
 </div>
 
 <h1></h1>
@@ -13,13 +13,21 @@ Estudo de Cypress no site Bug Bank com Page Objects
 
 
 ```diff 
-• git clone 
+• git clone git@github.com:Allysr/BugBankCypressPOM.git
 • cd bugbankCypressPOM
 • npm install
 • npm run test
 ```
 
-#### 🔖 Cenários de login usados para realização dos testes no cypress:
+#### 🔖 Como rodar o relatório:
+
+```diff 
+• npm run test
+• npm run report:allure
+
+```
+
+#### Cenários de login usados para realização dos testes no cypress:
 
 
 ```diff  
@@ -69,8 +77,14 @@ Então deve ocultar a senha.
 
 ```
 
+#### Relatório gerado:
+<div align="center">
+<img width="800px" alt="Relatório gerado Bugbank" src="https://i.imgur.com/YrkjlGl.png" />
+</div>
+
+
+
 <br>
 Site utilizado: https://bugbank.netlify.app/#
 <h1>
-
 
